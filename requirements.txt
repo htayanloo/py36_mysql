@@ -6,10 +6,10 @@ six
 tzlocal
 ujson
 urllib3
-
+PyMySQL
 djangorestframework
 Django
-pymysql
+#pymysql
 django-bootstrap3
 pycalverter
 django-crispy-forms
