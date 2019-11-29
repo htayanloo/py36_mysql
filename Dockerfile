@@ -7,6 +7,6 @@ RUN apk add --no-cache mariadb-dev g++ && \
 RUN apk add --no-cache jpeg-dev zlib-dev
 RUN apk add --no-cache --virtual .build-deps build-base linux-headers \
     pip install --no-cache-dir -r /tmp/requirements.txt && \
-    && apk del .build-deps
+    apk del .build-deps
 
 CMD ["/bin/sh"]
