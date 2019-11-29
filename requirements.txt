@@ -8,7 +8,7 @@ ujson
 urllib3
 
 djangorestframework
-Django==2.1
+Django
 pymysql
 django-bootstrap3
 pycalverter
